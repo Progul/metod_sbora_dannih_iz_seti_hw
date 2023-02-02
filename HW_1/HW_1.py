@@ -25,8 +25,8 @@ with open('repos.json', 'w', encoding='UTF-8') as f:
 # список всех сообществ на которые вы подписаны.
 
 path_flickr = f'https://www.flickr.com/services/rest/?method=flickr.' \
-         f'galleries.getPhotos&api_key=c473e4cfab72f334511de9ad' \
-         f'4f9f09c6&gallery_id=66911286-72157647277042064&forma' \
+         f'galleries.getPhotos&api_key=c473e4cfab72f3345ad' \
+         f'4f9f09c6&gallery_id=66911286-721576472774&forma' \
          f't=json&nojsoncallback=1'
 
 resp_flickr = requests.get(path_flickr)
