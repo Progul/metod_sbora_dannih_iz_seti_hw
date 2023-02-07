@@ -10,22 +10,3 @@
 4. Сайт, откуда собрана вакансия. (можно прописать статично hh.ru или superjob.ru)
 
 По желанию можно добавить ещё параметры вакансии (например, работодателя и расположение). Структура должна быть одинаковая для вакансий с обоих сайтов. Общий результат можно вывести с помощью dataFrame через pandas. Сохраните в json либо csv.
-
----
-
-Необходимо установить:
-
-```bash
-pip install requests
-pip install beautifulsoup4
-pip install lxml
-pip install openpyxl
-pip install pandas
-```
-или:
-
-```bash
-pip install -r requirements.txt
-или
-python -m pip install -r requirements.txt
-```
